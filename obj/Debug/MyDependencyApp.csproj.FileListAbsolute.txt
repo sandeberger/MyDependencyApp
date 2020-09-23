@@ -5,9 +5,3 @@ C:\Users\joaki\source\repos\MyDependencyApp\MyDependencyApp\bin\Debug\MyDependen
 C:\Users\joaki\source\repos\MyDependencyApp\MyDependencyApp\obj\Debug\MyDependencyApp.exe
 C:\Users\joaki\source\repos\MyDependencyApp\MyDependencyApp\obj\Debug\MyDependencyApp.pdb
 C:\Users\joaki\source\repos\MyDependencyApp\MyDependencyApp\obj\Debug\MyDependencyApp.csprojAssemblyReference.cache
-C:\dev\MyDependencyApp\MyDependencyApp\bin\Debug\MyDependencyApp.exe.config
-C:\dev\MyDependencyApp\MyDependencyApp\bin\Debug\MyDependencyApp.exe
-C:\dev\MyDependencyApp\MyDependencyApp\bin\Debug\MyDependencyApp.pdb
-C:\dev\MyDependencyApp\MyDependencyApp\obj\Debug\MyDependencyApp.csprojAssemblyReference.cache
-C:\dev\MyDependencyApp\MyDependencyApp\obj\Debug\MyDependencyApp.exe
-C:\dev\MyDependencyApp\MyDependencyApp\obj\Debug\MyDependencyApp.pdb

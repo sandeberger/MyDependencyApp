@@ -5,10 +5,7 @@ namespace MyDependencyApp.FunctionInjection
 {
     public class ConsoleLogArgs : IArgs
     {
-        // IN
         public string text;
-
-        //OUT
     }
     class ConsoleLog : IInjectFunction
     {
@@ -16,7 +13,7 @@ namespace MyDependencyApp.FunctionInjection
         {
             var myargs = (ConsoleLogArgs)args;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Console: {myargs.text}");
+            Console.WriteLine($"Console:{myargs.text}");
             Console.ForegroundColor = ConsoleColor.White;
             return true;
         }

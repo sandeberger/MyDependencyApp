@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\DummyConnection.cs" />
-    <Compile Include="Database\DummyDatabase.cs" />
     <Compile Include="FunctionInjections\ConsoleLog.cs" />
-    <Compile Include="FunctionInjections\DatabaseDummy.cs" />
-    <Compile Include="FunctionInjections\Worker.cs" />
+    <Compile Include="Worker.cs" />
     <Compile Include="DependencyInjectionBase\IFunction.cs" />
     <Compile Include="DependencyInjectionBase\FunctionFactory.cs" />
     <Compile Include="FunctionInjections\FileLog.cs" />
