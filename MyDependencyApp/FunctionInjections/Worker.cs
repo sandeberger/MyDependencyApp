@@ -15,6 +15,13 @@ namespace MyDependencyApp.FunctionInjections
     {
         public bool InjectFunction(IArgs args)
         {
+            var getDbConn = new FunctionInject();
+            IArgs getDbConnArgs = new DatabaseDummyArgs { connectionstring = "DNS=SQLSERVER" };
+            getDbConn.SetFunction(new ConcreteFunctionFactory().Create("databasedummy").InjectFunction);
+            getDbConn.Invoke(getDbConnArgs);
+            var conn = ((DatabaseDummyArgs)getDbConnArgs).returncode;
+            conn.Disconnect();
+
 #if true
             var consolelog = new FunctionInject();
             IArgs myargs = new ConsoleLogArgs { text = "?SYNTAX  ERROR" };

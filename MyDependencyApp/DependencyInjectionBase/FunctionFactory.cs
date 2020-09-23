@@ -18,6 +18,7 @@ namespace MyDependencyApp.DependencyInjectionBase
                 case "consolelog": return new ConsoleLog();
                 case "filelog": return new FileLog();
                 case "worker": return new Worker();
+                case "databasedummy": return new DatabaseDummy();
                 default: throw new ArgumentException("Invalid type", "type");
             }
         }
